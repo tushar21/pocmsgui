@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM node
 WORKDIR /uiapp
 COPY . /uiapp
 RUN npm install
